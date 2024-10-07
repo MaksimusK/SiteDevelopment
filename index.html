@@ -26,14 +26,14 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
 
         .btn {
         display:block;
-        background: #bb6f32;
+        background: rgb(209, 141, 23);
         color: #fff;
         padding: 1rem 1.5rem;
         text-align: center;
         border-radius: 10px;
          }
-         input{
-
+         .inputRegistr{
+            background-color: rgb(209, 141, 23);
          }
         a{
             text-decoration:none;
@@ -44,6 +44,10 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
         .title {
             font-family: 'Courier New', Courier, monospace;
             font-size: 130px;
+            font-weight: 600;
+            color: #bc7b46;
+            -webkit-text-stroke: 3px #eda60c;
+            
         }
         p.priceTitle{
             font-weight:600;
@@ -62,7 +66,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
             text-align: center;
         }
         .trust{
-            border: 3px solid #bb6f32;
+            border: 3px solid rgb(209, 141, 23);
             margin: 5% 0;
             padding: 3%;
         }
@@ -83,8 +87,8 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
                             <font size=+3 color=white class="title">Titan</font>
                         <td width=200>
                             
-                            <input type=search placeholder="Что искать?" size="15" maxlength="15">
-                            <input type=button  value="Поиск">
+                            <input type=search class="inputRegistr" placeholder="Что искать?" size="15" maxlength="15">
+                            <input  type=button  value="Поиск">
                         </td>
                     </tr>
                 </table>
@@ -112,7 +116,6 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
                             <h1>История сайта</h1>
                             <h2>Год 2022: Идея возникновения</h2>
                             <p class="oneblock">В 2022 году, на фоне быстрого роста цифровых технологий и необходимости в онлайн-присутствии для бизнеса, группа молодых разработчиков и предпринимателей решила создать платформу для упрощенного создания мобильных приложений и сайтов. Участники команды имели опыт работы в различных сферах разработки и маркетинга, что дало им понимание потребностей рынка. Они начали с исследования, выявляя главные боли малых и средних бизнесов: высокие затраты на разработку, длительное время реализации проектов и сложность в управлении контентом.</p>
-                            <!-- <img src="risunok1.jpg" width="150" height="120" vspace="1" hspace="10" align="left"> -->
                             <h2>Год 2022: Запуск платформы</h2>
                             <p>В конце 2022 года, после нескольких месяцев разработки, был запущен прототип сайта. Платформа предлагала интуитивно понятный интерфейс, основанный на принципах drag-and-drop, что позволяло пользователям без технических навыков создавать сайты и приложения за считанные минуты. Для первых пользователей были предложены бесплатные триальные периоды, что привлекло внимание стартапов и индивидуальных предпринимателей.</p>
                             <h2>Год 2023</h2>
@@ -129,7 +132,7 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
                         </td>
                         <td width=2 bgcolor=#FFE4B5></td>
                         <td width=30% valign="top" >
-                            <table border=1 style="background-color: #bc7b46; " class="tablePrice">
+                            <table border=1 style="background-color: rgb(209, 141, 23) " class="tablePrice">
                                 <tr  >
                                     
                                         <td nowrap><p href="">Продукт</p></td>
@@ -174,20 +177,20 @@ background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
                                 <form>
 
                                     <tr >
-                                        <td nowrap align=left><input type="text" placeholder="Login" ></td>
+                                        <td nowrap align=left><input class="inputRegistr" type="text" placeholder="Login" ></td>
                                     </tr>
                                     <tr>
-                                        <td nowrap align=left><input type="password" pattern="[0-9a-fA-F]{4,8}"
+                                        <td nowrap align=left><input class="inputRegistr" type="password" pattern="[0-9a-fA-F]{4,8}"
                                             title="Enter an ID consisting of 4-8 hexadecimal digits"
                                             autocomplete="new-password" placeholder="Password"></td>
                                     </tr>
                                     <tr>
-                                        <td nowrap align=left><input type="text" placeholder="E-mail"></td>
+                                        <td nowrap align=left><input class="inputRegistr" type="text" placeholder="E-mail"></td>
                                     </tr>
                                     <tr>
                                         
                                         
-                                        <td nowrap align=left><label>Дата рождения</label><br><input type="week" min="1990-W18" max="2024-W26" required></td>
+                                        <td nowrap align=left><label>Дата рождения</label><br><input class="inputRegistr" type="week" min="1990-W18" max="2024-W26" required></td>
                                     </tr>
                                     <tr>
                                         <td nowrap align=center><input class="custom-btn btn-7" type=reset value="Очистить"></td>
