@@ -3,14 +3,38 @@
     <meta charset="utf-8">
     <title>Titan</title>
     <style>
+.custom-btn {
+  width: 60%;
+  height: 60%;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+.btn-7 {
+background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgb(207, 104, 60) 100%);
+  line-height: 35px;
+  padding: 0;
+  border: 1;
+}
+
         .btn {
-        display:block; /* Строчно-блочный элемент */
-        background: #bb6f32; /* Серый цвет фона */
-        color: #fff; /* Белый цвет текста */
-        padding: 1rem 1.5rem; /* Поля вокруг текста */
+        display:block;
+        background: #bb6f32;
+        color: #fff;
+        padding: 1rem 1.5rem;
         text-align: center;
         border-radius: 10px;
-   }
+         }
+         input{
+
+         }
         a{
             text-decoration:none;
         }
@@ -166,7 +190,7 @@
                                         <td nowrap align=left><label>Дата рождения</label><br><input type="week" min="1990-W18" max="2024-W26" required></td>
                                     </tr>
                                     <tr>
-                                        <td nowrap align=center><input type=reset value="Очистить"></td>
+                                        <td nowrap align=center><input class="custom-btn btn-7" type=reset value="Очистить"></td>
                                     </tr>
                                 </form>
                             </table>
@@ -184,7 +208,7 @@
                                     <td nowrap align=left><input type=radio name="opros">Предприниматель</td>
                                 </tr>
                                 <tr>
-                                    <td nowrap align=center><input type=submit value="Регистрация" ></td>
+                                    <td nowrap align=center><input class="custom-btn btn-7" type=submit value="Регистрация" ></td>
                                 </tr>
                                 
                         </td>
